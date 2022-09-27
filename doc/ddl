@@ -1,0 +1,6 @@
+create table user_info (
+    id int not null auto_increment UNIQUE,
+    user_name varchar(100) not null UNIQUE,
+    password varchar(100) not null,
+    PRIMARY KEY (id)
+);
